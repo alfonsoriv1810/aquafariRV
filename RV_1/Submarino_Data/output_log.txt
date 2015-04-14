@@ -18,8 +18,8 @@ Platform assembly: C:\Users\mario\Documents\RV_1\Submarino_Data\Managed\Assembly
 Loading C:\Users\mario\Documents\RV_1\Submarino_Data\Managed\Assembly-UnityScript.dll into Unity Child Domain
 Platform assembly: C:\Users\mario\Documents\RV_1\Submarino_Data\Managed\UnityEngine.UI.dll (this message is harmless)
 Loading C:\Users\mario\Documents\RV_1\Submarino_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
-- Completed reload, in  0.040 seconds
-desktop: 1024x768 60Hz; virtual: 1024x768 at 0,0
+- Completed reload, in  0.042 seconds
+desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
 Platform assembly: C:\Users\mario\Documents\RV_1\Submarino_Data\Managed\System.Core.dll (this message is harmless)

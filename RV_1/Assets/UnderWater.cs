@@ -22,7 +22,7 @@ public class UnderWater : MonoBehaviour
 				if (transform.position.y <= heighWater && rotateControl == false) {
 						waterPlane.transform.Rotate (180.0f, 0, 0);
 
-						RenderSettings.fogDensity = 0.005f;
+						RenderSettings.fogDensity = 0.009f;
 						RenderSettings.fogColor = fogColore;
 						RenderSettings.fog = true;
 					
