@@ -11,7 +11,10 @@ public class UnderWater : MonoBehaviour
 		// Use this for initialization
 		void Start ()
 		{ //0.73f, 0.142f, 0.255f, 0.0f
-				fogColore = new Color (0.2851f, 0.5546f, 1.0f, 0.0f);
+
+				//fogColore = new Color (0.2851f, 0.5546f, 1.0f, 0.0f);
+
+                fogColore = new Color(0.0784f, 0.1568f, 0.2862f, 0.0f);//nuevo
 				rotateControl = false;
 
 		}
