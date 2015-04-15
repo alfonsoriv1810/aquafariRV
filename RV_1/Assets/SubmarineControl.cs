@@ -3,6 +3,7 @@ using System.Collections;
 
 public class SubmarineControl : MonoBehaviour
 {
+           public GameObject caustic;
 		public float nivelAgua, alturaFlotacion;
 		public Vector3 buoyancyCentreOffset;
 		public float bounceDamp;
@@ -84,9 +85,18 @@ public class SubmarineControl : MonoBehaviour
             motorGain();
             holdSpace();
             holdShift();
-            
+            moveCaustic();
+
             
         }
+
+
+        void moveCaustic()
+        {
+
+            caustic.transform.position = transform.position;
+        }
+
 
         void OnCollisionEnter(Collision collision)
         {
@@ -101,7 +111,7 @@ public class SubmarineControl : MonoBehaviour
             
             while (true)
             {
-                yield return new WaitForSeconds(1);
+                yield return new WaitForSeconds(0.5f);
                 //incrementar++;
                // Debug.Log("tik tok");
 
@@ -119,7 +129,7 @@ public class SubmarineControl : MonoBehaviour
 
             while (true)
             {
-                yield return new WaitForSeconds(1.5f);
+                yield return new WaitForSeconds(0.5f);
                 //incrementar++;
                 // Debug.Log("tik tok");
 
